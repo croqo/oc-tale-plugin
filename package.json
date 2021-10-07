@@ -1,0 +1,35 @@
+{
+  "name": "@croqo/tale",
+  "version": "0.0.1",
+  "description": "init",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --mode=development --watch",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/croqo/oc-tale-plugin.git"
+  },
+  "keywords": [
+    "october",
+    "cms",
+    "octobercms",
+    "october-plugin"
+  ],
+  "author": "Eugene Croquette",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/croqo/oc-tale-plugin/issues"
+  },
+  "homepage": "https://github.com/croqo/oc-tale-plugin#readme",
+  "dependencies": {
+    "fullpage.js": "^3.1.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.9.0"
+  },
+  "peerDependencies": {
+  }
+}
