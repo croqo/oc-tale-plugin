@@ -6,7 +6,7 @@ path = require("path")
 module.exports = {
 devtool: false,
 entry: {
-    "tale": [
+    "main": [
         "./package/index.js"
     ]
 },

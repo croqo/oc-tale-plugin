@@ -10,8 +10,8 @@ class TaleDependencies extends ComponentBase
     public function componentDetails()
     {
         return [
-            'name' => 'TaleDependencies Component',
-            'description' => 'No description provided yet...'
+            "name" => "croqo.tale::lang.components.main.name",
+            "description" => "croqo.tale::lang.components.main.description"
         ];
     }
 
@@ -24,7 +24,7 @@ class TaleDependencies extends ComponentBase
      */
     public function onRun()
     {
-        $this->addJs("assets/tale.js", [
+        $this->addJs("assets/main.js", [
             "build" => "Croqo.Tale",
             "defer" => true
         ]);
