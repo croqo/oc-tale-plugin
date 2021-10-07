@@ -50,10 +50,8 @@ class Plugin extends PluginBase
      */
     public function registerComponents()
     {
-        return []; // Remove this line to activate
-
         return [
-            'Croqo\Tale\Components\MyComponent' => 'myComponent',
+            'Croqo\Tale\Components\TaleDependencies' => 'taleDependencies',
         ];
     }
 
