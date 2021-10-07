@@ -6,8 +6,8 @@
     "components" => [
         "main" => 
         [
-            "name" => "JS Dependencies",
-            "description" => "taleDependencies",
+            "name" => "Tale",
+            "description" => "JS taleDependencies",
         ],
     ],
 ];
